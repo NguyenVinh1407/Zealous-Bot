@@ -1,0 +1,16 @@
+{
+  "name": "kaspa-faucet-claimer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Auto claim faucet tokens on Kasplex testnet",
+  "main": "claim.js",
+  "scripts": {
+    "start": "node claim.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^5.8.0",
+    "p-limit": "^6.2.0"
+  }
+}
